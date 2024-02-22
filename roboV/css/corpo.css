@@ -1,0 +1,272 @@
+#container{
+    background-color:black;
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 90%;
+   
+    
+    
+    
+}
+
+.clip{
+    clip-path: polygon(
+        50% 50%,20% 40%,
+     );
+}
+
+#corpo{
+
+    position: absolute;
+    width: 300px;
+    height: 240px;
+    background-color: rgb(131, 129, 129);
+    border: 5px solid rgb(11, 157, 6);  
+    margin: auto;
+    margin-top: 3px;
+    border-top-left-radius: 100px 150px;
+    border-top-right-radius: 100px 150px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    
+}
+
+#corpo1{
+    position: absolute;
+    width: 300px;
+    height: 240px;
+    background-color: rgb(131, 129, 129);
+    border: 5px solid rgb(11, 157, 6);  
+    margin: center ;
+    margin-top: 3px;
+    border-top-left-radius: 100px 150px;
+    border-top-right-radius: 100px 150px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0px  0px 1em  white;
+    animation: brilho 3s linear infinite;
+}
+@keyframes brilho {
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+    
+}
+
+img{
+    width: 60px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 190px;
+    border-radius: 10px;
+}
+
+#cabelo{
+  
+    margin: -2%;
+    margin-top: -26px;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(131, 129, 129);
+    border: 5px solid rgb(92, 92, 92);
+    border-radius: 50%;
+
+}
+
+#cabeça{
+    margin: auto;
+    margin-top: 125px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(235, 231, 231);
+    border: 5px solid rgb(92, 92, 92);
+
+    
+    border-bottom-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+
+}
+
+#rosto{
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    width: 180px;
+    height: 160px;
+    background-color:black;
+    border: 1px solid rgb(154, 152, 152);
+    border-bottom-right-radius: 70px 40px;
+    border-bottom-left-radius: 70px 40px;    
+
+}
+
+.boca{
+
+    display:flex;
+    flex-direction:row;
+    margin: auto;
+    margin-top: 110px;
+    width: 110px;
+    height: 35px;   
+    border-radius: 5px ; 
+    box-shadow: inset 0px 0px 35px  rgb(156, 156, 153);
+    animation: boca 3s linear  infinite;
+
+}
+@keyframes boca {
+    0%{opacity: 0;}
+    50%{opacity: 0.4;}
+    100%{opacity: 0;}
+    
+}
+.boca1{
+    background-color: rgb(244, 241, 241);
+    margin: auto;
+    width: 20%;
+    height: 35px;
+    animation: boca1 0.6s linear  infinite;
+}
+@keyframes boca1 {
+    0%{opacity: 1;}
+    50%{opacity: 0.2;}
+    100%{opacity: 1;}
+    
+}
+.boca2{
+    background-color: rgb(242, 246, 242);
+    margin: auto;
+    width: 20%;
+    height: 35px;
+    animation: boca2 0.8s linear  infinite;
+}
+@keyframes boca2 {
+    0%{opacity: 0;}
+    50%{opacity: 0.5;}
+    100%{opacity: 0;}
+    
+}
+.boca3{
+    background-color: rgb(240, 243, 241);
+    margin: auto;
+    width: 20%;
+    height: 35px;
+    animation: boca3 0.4s linear  infinite;
+}
+@keyframes boca3 {
+    0%{opacity: 0;}
+    50%{opacity: 0.5;}
+    100%{opacity: 0;}
+    
+}
+.boca4{
+    background-color: rgb(245, 247, 245);
+    margin: auto;
+    width: 20%;
+    height: 35px;
+    animation: boca4 0.5s linear  infinite;
+}
+@keyframes boca4 {
+    0%{opacity: 0;}
+    50%{opacity: 0.5;}
+    100%{opacity: 0;}
+    
+}
+.boca5{
+    background-color: rgb(229, 234, 230);
+    margin: auto;
+    width: 20%;
+    height: 35px;
+    animation: boca5 0.4s linear  infinite;
+}
+@keyframes boca5 {
+    0%{opacity: 0;}
+    50%{opacity: 0.5;}
+    100%{opacity: 0;}
+    
+}
+
+
+#olhod{
+    position: absolute;
+    width: 70px;
+    height: 45px;
+    background-color: white;
+    border: 2px solid white;
+    margin-top: 35px;
+    margin-left: 100px;
+
+    border-top-left-radius: 220px 190px;
+    border-top-right-radius: 130px 130px;
+    border-bottom-left-radius: 70px 70px;
+    border-bottom-right-radius: 110px 140px;
+    animation: piscar 5s linear infinite;
+}
+
+
+#olhoe{
+    position: absolute;
+    width: 70px;
+    height: 45px;
+    background-color: white;
+    border: 2px solid white;
+    margin-top: 35px;
+    margin-left: 10px;
+
+    border-top-left-radius: 30px;
+    border-top-right-radius: 70px 60px;
+    border-bottom-left-radius: 40px ;
+    border-bottom-right-radius: 20px;
+
+    animation: piscar 5s linear infinite;
+}
+
+@keyframes piscar {
+    0%{opacity: 1;}
+    50%{opacity: 0.4;}
+    100%{opacity: 1;}
+    
+}
+
+.peito{
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    
+  
+}
+
+#bracoe{
+    margin-left: -3px; 
+    margin-top: 20px;   
+    width: 30px;
+    height: 180px;
+    background-color: rgb(255, 255, 255);    
+    border: 5px solid rgb(92, 92, 92);
+   
+    transform: rotate(10deg);
+    border-top-left-radius: 350px 800px;
+    border-top-right-radius: 100px 150px;
+    border-bottom-left-radius: 300px 740px;
+    border-bottom-right-radius: 190px 2000px;
+
+}
+#bracod{
+    margin-left: 320px; 
+    margin-top: 9px;   
+    width: 30px;
+    height: 180px;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(92, 92, 92);
+   
+    transform: rotate(-16deg);
+    border-top-left-radius: 200px 660px;
+    border-top-right-radius: 290px 800px;
+    border-bottom-left-radius: 100px 200px;
+    border-bottom-right-radius: 400px 1200px;
+
+}
